@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    width: 90vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family: sans-serif;
+    background: url(/wp1877579.webp)no-repeat;
+    background-position: center;
+
+
+}
+
+.container{
+    width: 500px;
+    height: 550px;
+    background-color:rgb(0,0,0.0.5);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    
+    display: grid;
+    place-content: center;
+}
+
+.container h1{
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+.form-group {
+    background-color: green;
+    width: 400px;
+    margin: 20px 0;
+}
+
+.form-group input{
+    width: 100%;
+    height: 50px;
+    padding:  0 20px;
+    border: none;
+    outline: none;
+    font-size: 1em;}
+     
+    .form-group textarea{
+        border: none;
+        outline: none;
+        width: 100%;
+        resize: none;
+        padding: 20px;
+
+    }
+    
+#btn{
+    width: 35%;
+    height: 50px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: black;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+#btn:hover{
+    background-color: brown;
+    
+    
+}

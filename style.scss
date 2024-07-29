@@ -1,0 +1,38 @@
+$primarycolor:red;
+$secondary_color:rgb(30, 30, 146);
+$main_font_size:35px;
+
+
+
+.header h1 {
+    color: $primarycolor;
+    
+    letter-spacing: 1rem;
+    font-size: 60px;
+}
+
+.header p {
+    color :$secondary_color;
+    font-size: $main_font_size;
+    letter-spacing: 0.5rem;
+
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:768px) {
+    .box1{
+        flex-direction: column;
+        gap: 30px;
+    }
+    #box3{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+}
